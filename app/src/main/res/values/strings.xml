@@ -3,20 +3,34 @@
     <!-- Settings Activity Title -->
     <string name="title_activity_settings">SettingsActivity</string>
 
+<!--    &lt;!&ndash; Preference Titles &ndash;&gt;-->
+<!--    <string name="messages_header">Messages</string>-->
+<!--    <string name="sync_header">Sync</string>-->
+
+<!--    &lt;!&ndash; Messages Preferences &ndash;&gt;-->
+<!--    <string name="signature_title">Your signature</string>-->
+<!--    <string name="reply_title">Default reply action</string>-->
+
+<!--    &lt;!&ndash; Sync Preferences &ndash;&gt;-->
+<!--    <string name="sync_title">Sync email periodically</string>-->
+<!--    <string name="attachment_title">Download incoming attachments</string>-->
+<!--    <string name="attachment_summary_on">Automatically download attachments for incoming emails-->
+<!--    </string>-->
+<!--    <string name="attachment_summary_off">Only download attachments when manually requested</string>-->
+
     <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
+    <string name="messages_header"> Notification information</string>
+    <string name="sync_header">Synchronization</string>
 
     <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
+    <string name="signature_title">Message to show</string>
+    <string name="reply_title">Display when</string>
 
     <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="sync_title">Work periodicly</string>
+    <string name="attachment_title">Double speed</string>
+    <string name="attachment_summary_on">Double working frequency </string>
+    <string name="attachment_summary_off">Standard operating frequency</string>
 
     <!-- Main activity -->
     <string name="info_state"> Service state: </string>
@@ -26,6 +40,8 @@
     <string name="button_start">Start</string>
     <string name="button_restart">Restart</string>
     <string name="button_stop">Stop</string>
+    <string name="info_settings"> Service settings: </string>
+    <string name="info_service_settings">Settings...</string>
 
     <!-- Foreground service -->
     <string name="ser_title">FoSer!</string>
@@ -37,4 +53,6 @@
     <!-- Main menu -->
     <string name="titleSettings">Settings</string>
     <string name="titleExit">Exit</string>
+
+    Service settings:
 </resources>
